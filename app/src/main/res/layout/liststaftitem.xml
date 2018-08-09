@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorInput"
+    android:orientation="horizontal">
+<TableLayout
+        android:id="@+id/tabel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:stretchColumns="*"
+    >
+    <TableRow
+        android:id="@+id/tableRow2a"
+        android:background="@color/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/detail_week"
+            android:text="-"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/text_black"
+            android:padding="4dp"
+            android:textSize="12sp"
+            />
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/DividerWhite" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_hours_week"
+            android:text="-"
+            android:layout_width="38.5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/text_black"
+            android:padding="4dp"
+            android:textSize="12sp"
+            android:layout_marginRight="0.5dp"
+            />
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider_invisible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/DividerWhite" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_reward_week"
+            android:text="-"
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:textColor="@color/text_black"
+            android:padding="4dp"
+            android:textSize="12sp"
+            />
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider_invisible" />
+        </LinearLayout>
+
+    </TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp" >
+        <View style="@style/Divider_invisible" />
+    </LinearLayout>
+    </TableLayout>
+</LinearLayout>

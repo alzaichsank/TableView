@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--color custom-->
+    <color name="colorInput">#C1C2C4</color>
+    <color name="row1">#D2D2D3</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#ffffff</color>
+    <color name="border">#1a2930</color>
+
+
 </resources>
